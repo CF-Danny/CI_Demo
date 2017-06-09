@@ -1,4 +1,4 @@
-""This module does tests"""
+"""This module does tests"""
 
 import pytest
 from expecter import expect
