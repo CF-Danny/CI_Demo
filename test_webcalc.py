@@ -16,4 +16,12 @@ def describe_index():
 
         expect(response.data).contains(b"Helo, world!")
 
+def describe_calc():
+
+        def when_plus(client):
+            response = client.get('/4/+/5')
+
+            expect(response.data).contains(b"9")
+
+
 
