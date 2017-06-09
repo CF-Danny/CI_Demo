@@ -10,6 +10,7 @@ pytest--expecter = "*"
 [packages]
 flask = "*"
 gunicorn = "*"
+expecter = "*"
 
 [requires]
 python_version = "3.6"
